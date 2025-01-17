@@ -7,19 +7,18 @@ Este projeto é um site para um bot que inclui informações sobre os termos de 
 O projeto possui a seguinte estrutura de diretórios:
 
 ```
-bot-website
-├── src
-│   ├── index.html          # Página principal do site
-│   ├── styles              # Diretório para arquivos de estilo
-│   │   └── style.css       # Estilos CSS do site
-│   ├── scripts             # Diretório para arquivos de script
-│   │   └── app.js          # Código JavaScript do site
-│   └── pages               # Diretório para páginas adicionais
-│       ├── terms-of-service.html  # Termos de serviço do bot
-│       └── privacy-policy.html    # Política de privacidade do bot
-├── package.json            # Configuração do npm
-├── .gitignore              # Arquivos a serem ignorados pelo git
-└── README.md               # Documentação do projeto
+sitebot/
+├── index.html
+├── Project-Kitsune.mp4
+├── pages/
+│   ├── about.html
+│   ├── contact.html
+│   ├── privacy-policy.html
+│   └── terms-of-service.html
+├── scripts/
+│   └── app.js
+├── styles/
+    └── style.css
 ```
 
 ## Como Configurar
