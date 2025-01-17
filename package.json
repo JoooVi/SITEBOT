@@ -4,7 +4,7 @@
   "description": "Website para um bot com termos de serviço e políticas de privacidade.",
   "main": "index.html",
   "scripts": {
-    "start": "live-server src",
+    "start": "live-server",
     "build": "echo 'Build script placeholder'"
   },
   "author": "JoooVi",
