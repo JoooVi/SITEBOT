@@ -1,0 +1,16 @@
+{
+  "name": "bot-website",
+  "version": "1.0.0",
+  "description": "Website para um bot com termos de serviço e políticas de privacidade.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build script placeholder'"
+  },
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

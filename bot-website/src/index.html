@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 2em 0;
+        }
+
+        header h1 {
+            font-size: 4em;
+            color: rgb(243, 3, 75);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+        }
+        .about-section {
+            max-width: 500px;
+            text-align: left;
+            color: rgb(243, 3, 75);
+            font-size: 1.8em;
+            margin-right: 100px;
+            margin-top: -30px;
+        }
+        .about-section p {
+            color: white;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .video-button {
+            padding: 20px 40px;
+            color: white;
+            font-size: 20px;
+            background-color: rgb(243, 3, 75);
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-left: auto;
+        }
+        .video-button:hover {
+            background-color: rgba(253, 27, 95, 0.8);
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+        footer nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        footer nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted class="video-background">
+        <source src="../Project-Kitsune.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1>Radiant Studios</h1>
+    </header>
+    <main>
+        <section class="about-section">
+            <h2>Sobre </h2>
+            <p>Criado para fornecer suporte ao nosso servidor e futuros projetos.</p>
+        </section>
+        <a href="https://discord.com/oauth2/authorize?client_id=1329194359286927402&permissions=274877933568&integration_type=0&scope=bot" class="video-button">
+            Adicionar Bot ao Servidor
+        </a>
+    </main>
+    <footer>
+        <p>&copy; 2025 Radiant Studios. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="pages/terms-of-service.html">Termos de Serviço</a></li>
+                <li><a href="pages/privacy-policy.html">Política de Privacidade</a></li>
+                <li><a href="pages/contact.html">Contato</a></li>
+                <li><a href="pages/about.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
